@@ -1,0 +1,34 @@
+{
+  "name": "cocktail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:duythien0912/cocktail.git",
+  "author": "duythien0912 <duythien0912@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "dev": "^0.1.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.5",
+    "mongoose": "^5.0.11",
+    "mongoose-unique-validator": "^2.0.0",
+    "nodemailer": "^4.6.3",
+    "populatedb": "^1.0.0"
+  }
+}
